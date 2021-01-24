@@ -1,0 +1,25 @@
+.container {
+  width: 60%;
+  margin: auto;
+  text-align:center;
+  border: 1px solid black;
+}
+
+.meter {
+  text-align: left;
+}
+
+main {
+  background-image: url("images/heroback.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h4 {
+  background-image: url("images/flower.gif");
+  /* background-repeat: space; */
+  background-position: center;
+  padding: 3em;
+  border: 12px dotted rgb(37,37,24);
+  background-clip: padding-box;
+}
