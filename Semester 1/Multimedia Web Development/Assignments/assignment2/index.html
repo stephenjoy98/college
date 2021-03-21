@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Spice Bowl Survey</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="card">
+    <header>
+      <img src="images/logo.png" alt="The Spice Bowl">
+      
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Spices</a>
+        <a href="#">Coupons</a>
+        <a href="#">Reviews</a>
+      </nav>
+    </header>
+      
+    <main>
+      <div class="form">
+        <span class="h1">Survey Form</span>
+
+        <p>Thank you for taking our customer survey. Your response
+          helps us maintain the tradition that has made
+          us the top-rated place in the metro area. Surveys are private and confidential. Spice Bowl will not share your
+          contact information with third
+          parties, <em>ever</em>. </p>
+        <p>Required values are marked by an asterisk (*)</p>
+
+        <form action="#" method="GET">
+          <div class="row">
+            <fieldset class="col">
+              <legend>Customer Information</legend>
+
+              <label>
+                Title
+                <input type="text" list="list" class="left height" name="title" id="title">
+                <datalist id="list">
+                  <option value="Mr.">
+                  <option value="Mrs.">
+                  <option value="Ms.">
+                </datalist>
+              </label><br><br>
+
+              <label>
+                Name*
+                <input required type="text" class="left height" name="name" id="name" placeholder="first and last name">
+              </label><br><br>
+
+              <label>
+                Street address
+                <input type="text" class="left height" name="address" id="address">
+              </label><br><br>
+
+              <label>
+                City
+                <input type="text" class="left height" name="city" id="city">
+              </label><br><br>
+
+              <label>
+                State
+                <input type="text" class="left height" name="state" id="state">
+              </label><br><br>
+
+              <label>
+                Postal code
+                <input type="text" class="left height" name="postal" id="postal" placeholder="nnnnn (-nnnn)">
+              </label><br><br>
+
+              <label>
+                Phone number
+                <input type="tel" class="left height" name="phone" id="phone" placeholder="(nnn) nnn-nnnn">
+              </label><br><br>
+
+              <label>
+                Email*
+                <input required type="text" class="left height" name="email" id="email">
+              </label><br><br>
+              
+              <label>
+                Where did you hear about us?
+                <select multiple class="left clear" name="hear" id="hear">
+                  <option value="internet">Internet</option>
+                  <option value="magazine">Magazine</option>
+                  <option value="newspaper">Newspaper</option>
+                  <option value="word of mouth">Word of Mouth</option>
+                  <option value="other">Other</option>
+                </select><br>(select all that apply)
+              </label><br><br><br>
+              
+              <label>What's your favourite dish?<input type="search" class="left height" name="dish" id="dish"></label><br><br>
+              
+              <label>How many times do you dine out per month?<input type="number" class="left height" name="dineout" id="dineout" min="0"></label><br><br>
+
+              <input type="checkbox" id="mailing" checked>
+              <label for="mailing">Add me to your mailing list for great coupons and specials!</label>
+
+            </fieldset>
+            <fieldset class="col">
+              <legend>Share Your Experience</legend>
+
+              <label>
+                Date of visit
+                <input type="date" class="left height" name="date" id="date">
+              </label><br><br>
+
+              <label>
+                Order type
+                <select class="left height" name="order" id="order">
+                  <option hidden>Select an option</option>
+                  <option value="dinein">Dine in</option>
+                  <option value="takeaway">Take Away</option>
+                  <option value="delivery">Home Delivery</option>
+                </select>
+              </label><br><br>
+
+              <label for="serviceyes">
+                Was your service friendly?
+              </label>
+              <div class="left box">
+                <label for="serviceyes">Yes</label>
+                <input type="radio" name="service" id="serviceyes">
+                <label for="serviceno">No</label>
+                <input type="radio" name="service" id="serviceno">
+              </div><br><br>
+
+              <label for="correctyes">
+                Was your order correct?
+              </label>
+              <div class="left box">
+                <label for="correctyes">Yes</label>
+                <input type="radio" name="correct" id="correctyes">
+                <label for="correctno">No</label>
+                <input type="radio" name="correct" id="correctno">
+              </div><br><br>
+
+              <label for="hotyes">
+                Was your food hot?
+              </label>
+              <div class="left box">
+                <label for="hotyes">Yes</label>
+                <input type="radio" name="hot" id="hotyes">
+                <label for="hotno">No</label>
+                <input type="radio" name="hot" id="hotno">
+              </div><br><br>
+              
+              <label>
+                Rate the overall service<br>(0=poor; 10=great)
+                <input type="range" class="left height" min="0" max="10">
+              </label><br><br>
+              
+              <label>
+                Tell us more about your experience!<br><br>
+                <textarea name="experience" id="experience" rows="10"></textarea>
+              </label><br><br>
+
+            </fieldset>
+          </div>
+
+          <div class="button">
+            <button type="submit" name="submit" id="submit">Submit My Survey</button>
+
+            <button type="reset" name="cancel" id="cancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+      
+      <div class="calendar">
+        <table>
+          <caption>February 2021 Calendar</caption>
+          <thead>
+            <tr>
+              <th>Sun</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="no">31</td>
+              <td>01</td>
+              <td>02</td>
+              <td>03</td>
+              <td>04</td>
+              <td>05</td>
+              <td>06</td>
+            </tr>
+            <tr>
+              <td>07</td>
+              <td>08</td>
+              <td>09</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td>14<br><span class="weight">Valentine's Day</span></td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td class="no">01</td>
+              <td class="no">02</td>
+              <td class="no">03</td>
+              <td class="no">04</td>
+              <td class="no">05</td>
+              <td class="no">06</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      Copyright &copy;2020 &emsp; Stephen Joy | 300329148
+    </footer>
+  </div>
+</body>
+
+</html>

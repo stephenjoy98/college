@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Working with Forms</title>
+    <meta charset="utf-8">
+</head>
+
+
+<body>
+    <h2>Sample Form</h2>
+    <form action="">
+        <!-- <label for="email">Email:</label> -->
+        <!--   <label>Email:
+            <input type="text" name="email" id="email" placeholder="Enter email address"></label>
+    </form> -->
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Enter email address" required><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter password"><br>
+        <input type="submit"> <input type="reset">
+        <input type="image" src="signup.gif" alt="Log in Button" width="80" height="20">
+        <button type="submit">
+            <img src="signup.gif" width="20">
+            <h3>Sign up here for newsletters</h3>
+        </button>
+        <br>
+        <label for="customer">Customer Type:</label>
+        <input type="text" name="customer" id="customer" value="Regular" required><br>
+
+        <h2>Using checkboxes</h2>
+        <h4> Choose the pizza topping</h4>
+        <input type="checkbox" id="greenpep" name="toppings" value="Green Peppers">
+        <label for="greenpep">Green Peppers</label>
+        <input type="checkbox" id="onion" name="toppings">
+        <label for="onion">Onion</label>
+        <input type="checkbox" id="xcheese" name="toppings">
+        <label for="xcheese">Extra Cheese</label>
+        <input type="checkbox" id="pepperoni" checked>
+        <label for="pepperoni">Pepperoni</label>
+
+        <h3>Using Radio Buttons</h3>
+        <input type="radio" name="crust" id="thin" checked>
+        <label for="thin"> Thin Crust</label>
+        <input type="radio" name="crust" id="pizzabagels">
+        <label for="pizzabagels"> Pizza Bagels</label>
+        <h2>Scrolling Text Box</h2>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments" rows="4" cols="20">Enter Comments:</textarea>
+        <h3>Select List:</h3>
+        <label for="favcolor">Favourite Colors</label>
+        <select name="favcolor" id="favcolor" size="3" multiple>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="red">Red</option>
+
+        </select>
+        <h2>This is about some basic elements</h2>
+
+    </form>
+</body>
+
+</html>

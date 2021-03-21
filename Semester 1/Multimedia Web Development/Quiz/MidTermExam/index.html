@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MidTermExam</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+        <header><h1>Light Yoga Studio <span class="italic">since 2010</span> </h1></header>
+        
+        <div class="flex">
+            <nav>
+                <a href="#1">Home</a>
+                <a href="#2">Schedule</a>
+                <a href="#3">Programs</a>
+                <a href="#4">Music</a>
+            </nav>
+            
+            <div id="main">
+                <img src="images/logo.jpg" alt="Logo">
+
+                <h2>Yoga Schedule</h2>
+
+                <p>Path of Light Yoga Studio provides all levels of yoga practice in a tranquil, peaceful environment.
+                    Whether you are new to yoga or an experienced practitioner, our dedicated instructors can develop a
+                    practice to meet your needs. Let your inner light shine at the Path of Light Yoga Studio..
+                </p>
+
+                <table>
+                    <caption>All Times Central</caption>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                            <th>Sun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="time">6:00AM</td>
+                            <td colspan="7">Gentle Hatha Yoga</td>
+                        </tr>
+                        <tr>
+                            <td class="time">6:30AM</td>
+                            <td colspan="7">Vinyasa Yoga</td>
+                        </tr>
+                        <tr>
+                            <td class="time">7:00AM</td>
+                            <td rowspan="2">Yin Yoga</td>
+                            <td rowspan="2">Kundalini Yoga</td>
+                            <td rowspan="2">Anusara yoga</td>
+                            <td rowspan="2">Jivamukti yoga</td>
+                            <td>Jivamukti yoga</td>
+                            <td>Mind-Week</td>
+                            <td rowspan="2">Anusara yoga</td>
+                        </tr>
+                        <tr>
+                            <td class="time">7:30AM</td>
+                            <td>Yin Yoga</td>
+                            <td>Restorative Yoga</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="8">Studio ends it day by 8:00AM.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                
+            </div>
+            <div id="right">
+                <form action="#" method="GET">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label>First Name <input type="text" name="fname" id="fname" placeholder="First Name"></label><br><br>
+                        <label>Last Name <input type="text" name="lname" id="lname" placeholder="Last Name"></label><br><br>
+                        <label>Phone Number<input type="tel" name="pnum" id="pnum" placeholder="Phone Number" required></label><br><br>
+                        <label>E-mail*<input type="email" name="email" id="email" placeholder="" tabindex="1" required></label><br><br>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Give your feedback</legend>
+                        <label>Date of visit <input type="date" name="date" id="date"></label><br><br>
+                        <label>Name of event
+                            <select name="event" id="event">
+                                <option value="Gentle Hatha Yoga">Gentle Hatha Yoga</option>
+                                <option value="Vinyasa Yoga">Vinyasa Yoga</option>
+                                <option value="Yin Yoga">Yin Yoga</option>
+                                <option value="Kundalini Yoga">Kundalini Yoga</option>
+                                <option value="Anusara yoga">Anusara yoga</option>
+                            </select>
+                        </label><br><br>
+                        <label>Rating (1 - 10): <input type="range" name="rating" id="rating" min="1" max="10"></label><br><br>
+                        <label>Comments: <textarea name="comments" id="comments"></textarea></label><br><br>
+                    </fieldset>
+                    <div class="buttons">
+                        <button type="submit" name="submit" id="submit">Submit</button>
+                        <button type="reset" name="cancel" id="cancel">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            LYS &#183; 4323 Magnolia Lane &#183; Bismarck, ND 12345 &#183; (701) 555 - 5611 | 300329148
+        </footer>
+    </div>
+</body>
+
+</html>

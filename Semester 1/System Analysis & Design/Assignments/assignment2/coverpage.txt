@@ -1,0 +1,17 @@
+Aesol Hong (300281431, honga2@student.douglascollege.ca)
+Thanh Hung, Do-300284237-dot8@student.douglascollege.ca
+Dhruvin Shah, 300337770, shahd2@student.douglascollege.ca
+
+Due to the advancement in technology, reliable video conferencing has become accessible and affordable, and can easily serve the modern workplace. This has allowed many businesses to continue to operate by allowing employees to work from home, using conferencing solutions for meetings and updates, as well as general communications especially during this ongoing pandemic.
+
+zoom - teams
+Usage: Zoom is mostly a video calling and meeting app - Microsoft Teams serves as a general chat and organization application
+Add-ons / integrations: integration with some 3rd party application with limited features - it has great integration with Microsoft’s 365 apps like Word, Excel, and Powerpoint.
+video-quality: 720p default 1080p 30 fps 3Mbps - 2Mbps
+participants: 100, 1000 - 300, 10000
+pricing: free; $30 - $20
+security: end to end, -
+
+
+According to our research, we found Microsoft Teams to be more of a logical and financial choice than Zoom. Zoom is just a standalone video conferencing app. And additionally, you need to pay C$ 200 for it's "Pro" features which includes video conferencing time limit of upto 30 hours which is limited to upto 40 minutes on its free tier. On top of that it has limited choice of 3rd party app integrations which may hamper your productivity. Also previously, Zoom has found itself in hot water due to its security vulnerabilities and lack of privacy protection features resulting it being deemed unsafe under certain scenarios.
+Coming over to Microsoft Teams, the video conferencing time limit is set to 60 minutes but due to the pandemic, the time limit has been increased to 24 hours on free tier. Also, Teams comes tightly integrated with Microsoft's 365 suite which includes Outlook mail, Word, Excel, Sharepoint and it's online cloud storage service Onedrive. On the other hand, if your organisation already has subscription to Microsoft 365 you will have access to all the 'Pro' features which includes 24 hours of video conferencing limit, increased Onedrive storage limit, access to office suite, etc.

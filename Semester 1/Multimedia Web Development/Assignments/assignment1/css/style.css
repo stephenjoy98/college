@@ -1,0 +1,159 @@
+body {
+  background: linear-gradient(#8CC63F, #0082C8);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  width: 80%;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  margin: auto;
+  overflow: auto;
+}
+
+header {
+  padding: 5px;
+  padding-left: 20px;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+}
+
+#city {
+  color: #0082C8;
+}
+
+#van {
+  color: #8CC63F;
+}
+
+nav {
+  padding: 15px 10px;
+  text-align: center;
+  background-color: #abe2bb;
+  border-bottom: 1px solid #CCC;
+}
+
+nav a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #7ac49b;
+  text-decoration: none;
+}
+
+nav .active {
+  background-color: #1cac5d;
+}
+
+main {
+  padding: 10px;
+  overflow: auto;
+}
+
+/* <figure> */
+.vancouver {
+  float: left;
+}
+
+.vancouver #vancouver {
+  width: 400px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 14px;
+}
+
+blockquote {
+  line-height: 25px;
+  word-spacing: 5px;
+  font-size: 20px;
+  text-indent: 50px;
+  text-align: justify;
+}
+
+.content {
+  clear: both;
+  padding: 5px 10px;
+  line-height: 25px;
+  word-spacing: 5px;
+  border-radius: 5px;
+  background-color: #eee;
+  text-align: justify;
+  font-size: 18px;
+}
+
+p {
+  text-indent: 50px;
+}
+
+.vflag {
+  float: right;
+}
+
+.vflag #vflag {
+  width: 400px;
+}
+
+#source {
+  color: #777;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  background-color: #9adce7;
+}
+
+#bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.sea {
+  text-align: center;
+}
+
+#sea {
+  width: 80%;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.jojo {
+  float: right;
+}
+
+#jojo {
+  width: 400px;
+}
+
+.parkboard {
+  float: right;
+}
+
+#parkboard {
+  width: 250px;
+}
+
+.seawall {
+  text-align: center;
+}
+
+.beach {
+  float: left;
+}
+
+#beach {
+  width: 400px;
+}

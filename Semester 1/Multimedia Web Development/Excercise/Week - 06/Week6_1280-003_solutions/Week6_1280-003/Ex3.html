@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Comment Form</title>
+  <meta charset="utf-8">
+  <style>
+    form {
+      min-width: 200px;
+      background-color: #eaeaea;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+
+    label {
+      float: left;
+      width: 200px;
+      clear: both;
+      text-align: right;
+      padding-right: 10px;
+      margin-top: 30px;
+    }
+
+    input,
+    textarea {
+      margin-top: 30px;
+      display: block;
+    }
+
+    #mySubmit {
+      margin-left: 210px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Send Us Your Comments</h1>
+  <p>Required fields are marked with an asterisk*.</p>
+  <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+    <label for="myName">*Name:</label>
+    <input type="text" name="myName" id="myName" placeholder="your first and last name" required>
+
+    <label for="myEmail">E-mail:</label>
+    <input type="email" name="myEmail" id="myEmail" placeholder="you@domain.com">
+
+    <label for="myURL">Enter the URL:</label>
+    <input type="url" name="myURL" id="myURL">
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" name="mobile" id="mobile">
+
+    <label fpr="myRating">Rating (1-10):</label>
+    <input type="range" name="myRating" id="myRating" min="1" max="100" step="5">
+
+    <label for="myChoice"> Choose number(1 to 50):</label>
+    <input type="number" name="myChoice" id="myChoice" min="1" max="50" step="5">
+
+    <label for="keyword">Search:</label>
+    <input type="search" name="keyword" id="keyword">
+
+    <label for="colors">DataList</label>
+    <input type="search" name="colors" id="colors" list="search-suggestions">
+    <datalist id="search-suggestions">
+      <option value="red" label="red">
+      <option value="green" label="green">
+      <option value="purple" label="purple">
+      <option value="cyan" label="cyan">
+      <option value="pink" label="pink">
+      <option value="black" label="black">
+
+    </datalist>
+
+    <label for="myDate">Choose a date</label>
+    <input type="date" name="myDate" id="myDate">
+
+    <label for="myComments">Comments:</label>
+    <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+
+    <label for="myColor">Choose a color:</label>
+    <input type="color" name="myColor" id="myColor">
+
+    <input id="mySubmit" type="submit" value="Submit">
+  </form>
+</body>
+
+</html>

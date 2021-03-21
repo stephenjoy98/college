@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\CSIS1175_Assignment3\bin\Release\CSIS1175_Assignment3.exe.config
+C:\Users\User\source\repos\CSIS1175_Assignment3\bin\Release\CSIS1175_Assignment3.exe
+C:\Users\User\source\repos\CSIS1175_Assignment3\bin\Release\CSIS1175_Assignment3.pdb
+C:\Users\User\source\repos\CSIS1175_Assignment3\obj\Release\CSIS1175_Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CSIS1175_Assignment3\obj\Release\CSIS1175_Assignment3.exe
+C:\Users\User\source\repos\CSIS1175_Assignment3\obj\Release\CSIS1175_Assignment3.pdb
+D:\College\Semester 1\Introduction to Programming\assignments\assignment3\obj\Release\CSIS1175_Assignment3.csprojAssemblyReference.cache
+D:\College\Semester 1\Introduction to Programming\assignments\assignment3\obj\Release\CSIS1175_Assignment3.csproj.CoreCompileInputs.cache
+D:\College\Semester 1\Introduction to Programming\assignments\assignment3\obj\Release\CSIS1175_Assignment3.exe
+D:\College\Semester 1\Introduction to Programming\assignments\assignment3\obj\Release\CSIS1175_Assignment3.pdb
+D:\College\Semester 1\Introduction to Programming\assignments\assignment3\bin\Release\CSIS1175_Assignment3.exe.config
+D:\College\Semester 1\Introduction to Programming\assignments\assignment3\bin\Release\CSIS1175_Assignment3.exe
+D:\College\Semester 1\Introduction to Programming\assignments\assignment3\bin\Release\CSIS1175_Assignment3.pdb

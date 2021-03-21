@@ -1,0 +1,24 @@
+body{
+    background-color: white;;
+}
+#wrapper{
+    width: 80%;
+    margin: auto;
+    background-color: azure;
+}
+nav{
+    float: left;
+    width: 20%;
+}
+aside{
+    float: right;
+    width: 25%;
+}
+main{
+    width: 50%;
+    margin-left: 20%;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
