@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Quiz2</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body onload="displayResults()">
+    <h1> Quiz 2</h1>
+    <h1>Stephen Joy - 300329148</h1>
+    <table>
+        <tr>
+            <th>Question 1</th>
+            <th>Question 2</th>
+            <th>Question 3</th>
+        </tr>
+        <tr>
+            <!-- <Question 1 -->
+
+            <td>
+                <h2> Enter Subtotal and Tax Rate </h2>
+                <form>
+                    <label for="subtotal"> Enter the Subtotal: </label>
+                    <input type="text" name="subtotal" id="subtotal">
+
+                    <label for="tax_rate"> Enter the Tax Rate: </label>
+                    <input type="text" name="tax_rate" id="tax_rate">
+
+                    <label for="sales_tax"> Sales Tax </label>
+                    <input type="text" name="sales_tax" id="sales_tax" disabled>
+
+                    <label for="total">Total:</label>
+                    <input type="text" id="total" name="total" disabled>
+
+                    <button class="ques1" type="button" onclick="processEntries()">Calculate Sales Tax</button>
+                    <button class="ques1" type="button" onclick="clearEntries()">Clear Entries</button>
+
+                </form>
+                <h4 id="result"></h4>
+
+            </td>
+
+            <!-- Question 2 -->
+
+            <td>
+                <h2>Styled Content and Mouse Rollover </h2>
+
+                <p id="qn2a">It is the Multimedia Web Development Class</p>
+                <p id="qn2b">Today is Tuesday!!!!</p>
+                <button type="button" onclick="styledContent();">Press here to see the styled content</button>
+
+                <h2 onmouseover="this.style.textDecoration='underline'; this.style.color='red'" onmouseout="this.style.textDecoration='none'; this.style.color='yellow'"> ROLLOVER EFFECT </h2>
+            </td>
+
+            <!-- Question 3 -->
+
+            <td>
+                <h2>Use of Array and Loop</h2>
+
+                <p> The new array is: </p>
+                <p id="newScores"></p>
+
+                <p id="scoreResult"></p>
+
+                <p> The reversed array is: </p>
+                <p id="reverseScores"></p>
+
+            </td>
+        </tr>
+    </table>
+    <script src="solution.js"></script>
+</body>
+
+</html>
