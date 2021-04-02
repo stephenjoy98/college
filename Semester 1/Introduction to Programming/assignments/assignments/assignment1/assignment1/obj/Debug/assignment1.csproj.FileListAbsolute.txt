@@ -1,0 +1,7 @@
+C:\Users\Sam\Documents\Saeed\Douglas\1175\assignments\assignment1\Source code\assignment1\assignment1\bin\Debug\assignment1.exe.config
+C:\Users\Sam\Documents\Saeed\Douglas\1175\assignments\assignment1\Source code\assignment1\assignment1\bin\Debug\assignment1.exe
+C:\Users\Sam\Documents\Saeed\Douglas\1175\assignments\assignment1\Source code\assignment1\assignment1\bin\Debug\assignment1.pdb
+C:\Users\Sam\Documents\Saeed\Douglas\1175\assignments\assignment1\Source code\assignment1\assignment1\obj\Debug\assignment1.csprojAssemblyReference.cache
+C:\Users\Sam\Documents\Saeed\Douglas\1175\assignments\assignment1\Source code\assignment1\assignment1\obj\Debug\assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Sam\Documents\Saeed\Douglas\1175\assignments\assignment1\Source code\assignment1\assignment1\obj\Debug\assignment1.exe
+C:\Users\Sam\Documents\Saeed\Douglas\1175\assignments\assignment1\Source code\assignment1\assignment1\obj\Debug\assignment1.pdb

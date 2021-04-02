@@ -1,0 +1,14 @@
+C:\Users\mirjalilis\source\repos\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+C:\Users\mirjalilis\source\repos\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+C:\Users\mirjalilis\source\repos\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+C:\Users\mirjalilis\source\repos\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
+C:\Users\mirjalilis\source\repos\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\mirjalilis\source\repos\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+C:\Users\mirjalilis\source\repos\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
+D:\College\Semester 1\Introduction to Programming\assignments\assignments\Assignment3_solution\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+D:\College\Semester 1\Introduction to Programming\assignments\assignments\Assignment3_solution\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+D:\College\Semester 1\Introduction to Programming\assignments\assignments\Assignment3_solution\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+D:\College\Semester 1\Introduction to Programming\assignments\assignments\Assignment3_solution\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
+D:\College\Semester 1\Introduction to Programming\assignments\assignments\Assignment3_solution\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+D:\College\Semester 1\Introduction to Programming\assignments\assignments\Assignment3_solution\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+D:\College\Semester 1\Introduction to Programming\assignments\assignments\Assignment3_solution\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
