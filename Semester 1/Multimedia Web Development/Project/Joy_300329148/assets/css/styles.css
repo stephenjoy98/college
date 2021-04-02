@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  font-family: Calibri, sans-serif;
+}
+
+header {
+  background-color: #000;
+}
+
+#logo {
+  max-width: 40%;
+}
+
+nav {
+  background-color: #FCC243;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  padding: 10px 20px;
+  display: inline;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #ffae00;
+}
+
+nav a.active {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 50%;
+  padding: 10px;
+  height: 100%;
+}
+
+.col-3 {
+  flex: 25%;
+  padding: 10px;
+  height: 100%;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px #888;
+  padding: 20px;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+.news a {
+  text-decoration: none;
+  color: #000;
+}
+
+.news figure {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.news figure img{
+  padding: 10px;
+  width: 94%;
+}
+
+.news figcaption {
+  font-size: 12px;
+}
+
+
+footer {
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #FCC243;
+}
+
+@media only screen and (max-width:768px) {
+  .col-md-6 {
+    flex:
+  }
+}
+
+@media only screen and (max-width:600px) {
+  #logo {
+    max-width: 100%;
+  }
+
+  nav {
+    padding: 0px;
+  }
+  
+  nav a {
+    display: block;
+    font-size: 1.2em;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .card {
+    padding: 10px;
+  }
+}
