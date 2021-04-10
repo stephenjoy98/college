@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CheckBoxes</title>
+</head>
+
+<body>
+    <h3>Popular Sports</h3>
+    <hr>
+    <p>Which of the following are the most popular sports in Canada?</p>
+
+    <form>
+
+        <input type="checkbox" name="sports" id="sport1" value="Basketball">
+        <label for="sport1">Basketball</label><br><br>
+
+        <input type="checkbox" name="sports" id="sport2" value="Rugby">
+        <label for="sport2">Rugby</label><br><br>
+
+        <input type="checkbox" name="sports" id="sport3" value="Soccer">
+        <label for="sport3">Soccer </label><br><br>
+
+        <input type="checkbox" name="sports" id="sport4" value="Cricket">
+        <label for="sport4">Cricket</label><br><br>
+
+        <input type="checkbox" name="sports" id="sport5" value="Baseball">
+        <label for="sport5">Baseball</label><br><br>
+
+        <button type="reset" value="Reset">Reset</button>
+        <button type="button" onclick="popularSports();">Display Sports</button>
+    </form>
+
+    <hr>
+
+    <h4>The most popuar sports are:</h4>
+
+    <p id="result"></p>
+    <script>
+        function popularSports() {
+            //let sports = document.getElementsByName("sports");
+            let sports = document.querySelectorAll("input[type='checkbox']");
+            console.log(sports);
+            let result = document.getElementById("result");
+            let psports = [];
+
+            for (let i = 0; i < sports.length; i++) {
+                if (sports[i].checked) {
+                    psports.push(sports[i].value);
+                }
+            }
+            console.log(psports);
+            for (let sport of psports)
+                result.innerHTML += sport + "<br>";
+
+
+        }
+    </script>
+</body>
+
+</html>

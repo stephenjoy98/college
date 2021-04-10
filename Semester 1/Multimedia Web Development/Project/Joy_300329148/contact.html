@@ -13,24 +13,74 @@
 <body>
   <div id="content">
     <header>
-      <center>
-        <logo>
-          <a href="index.html">
-            <img id="logo" src="assets/images/logo.png" alt="PCMasterRace">
-          </a>
-        </logo>
-      </center>
+      <div class="logo">
+        <a href="index.html">
+          <img id="logo" src="assets/images/logo.png" alt="PCMasterRace">
+        </a>
+      </div>
 
       <nav>
         <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
+        <a href="system-builder.html">System Builder</a>
         <a href="about.html">About</a>
         <a href="#" class="active">Contact Us</a>
       </nav>
     </header>
 
     <main>
-
+      <div class="row">
+        <div class="col">
+          <div class="card about">
+            <div class="center"><h2>Get in touch</h2></div>
+            <div class="hr"></div>
+            <form>
+              <div class="row">
+                <div class="col-6 left">
+                  Name :
+                </div>
+                <div class="col-6 right">
+                  <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-6 left">
+                  Email :
+                </div>
+                <div class="col-6 right">
+                  <input type="email" name="email" id="email" placeholder="Please use a real email" required>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-6 left">
+                  Message :
+                </div>
+                <div class="col-6 right">
+                  <textarea name="message" id="message" rows="4" placeholder="Your message to us..." required></textarea>
+                </div>
+              </div>
+              
+              <div class="row checkbox">
+                <div class="col">
+                  <div class="center">
+                    <input type="checkbox" id="offers" name="mails" value="offers">
+                    <label for="offers">Subscribe to our daily, weekly, monthly newsletters</label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col">
+                  <div class="center">
+                    <button type="submit" class="btn">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
   </div>
 

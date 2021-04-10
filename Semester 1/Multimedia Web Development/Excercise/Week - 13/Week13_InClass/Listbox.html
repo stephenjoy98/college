@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ListBox</title>
+</head>
+
+<body>
+    <h3>List Boxes</h3>
+    <hr>
+    <p>Select a dorm</p>
+
+    <select id="dorm" name="dorm" multiple size="6" onchange="myFunc()">
+        <option>Chesnut Hall</option>
+        <option>Copley Quad</option>
+        <option>Browning Hall</option>
+        <option>Eaton Hall</option>
+        <option>Melrose Hall</option>
+        <option>Semple Hall</option>
+    </select>
+    <p id="result"> </p>
+    <p id="result1"> </p>
+
+    <script>
+        function myFunc() {
+            let dorm = document.getElementById("dorm");
+            //dorm = document.getElementsByName("dorm")[0];
+            //dorm = document.getElementsByTagName("select")[0];
+            //console.log(dorm);
+            let result = document.getElementById("result");
+            //console.log(dorm.length);
+            let index = dorm.selectedIndex;
+            console.log("The index of the selected option is ", index);
+            console.log("The value at the selected index is ", dorm.options[index].value);
+            console.log("The value at the selected index is ", dorm.value);
+
+            //Using selectedOptions to retrieve the selected options
+
+            let selOptions = dorm.selectedOptions;
+            console.log("The selected options are ", selOptions);
+
+            let selectedDorms = "";
+
+            for (let i = 0; i < selOptions.length; i++) {
+                selectedDorms += selOptions[i].value + " "
+            }
+            result.innerHTML = "The selected dorms are:  " + selectedDorms;
+
+            let myOptions = [];
+            for (let i = 0; i < dorm.length; i++) {
+                if (dorm[i].selected)
+                    myOptions.push(dorm[i].value)
+            }
+            document.getElementById("result1").innerHTML = myOptions;
+        }
+
+    </script>
+
+</body>
+
+
+</html>

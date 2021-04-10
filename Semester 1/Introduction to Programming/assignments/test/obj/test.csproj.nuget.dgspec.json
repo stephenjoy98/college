@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\College\\Semester 1\\Introduction to Programming\\assignments\\test\\test.csproj": {}
+    "D:\\college\\Semester 1\\Introduction to Programming\\assignments\\test\\test.csproj": {}
   },
   "projects": {
-    "D:\\College\\Semester 1\\Introduction to Programming\\assignments\\test\\test.csproj": {
+    "D:\\college\\Semester 1\\Introduction to Programming\\assignments\\test\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\College\\Semester 1\\Introduction to Programming\\assignments\\test\\test.csproj",
+        "projectUniqueName": "D:\\college\\Semester 1\\Introduction to Programming\\assignments\\test\\test.csproj",
         "projectName": "test",
-        "projectPath": "D:\\College\\Semester 1\\Introduction to Programming\\assignments\\test\\test.csproj",
+        "projectPath": "D:\\college\\Semester 1\\Introduction to Programming\\assignments\\test\\test.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "D:\\College\\Semester 1\\Introduction to Programming\\assignments\\test\\obj\\",
+        "outputPath": "D:\\college\\Semester 1\\Introduction to Programming\\assignments\\test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",

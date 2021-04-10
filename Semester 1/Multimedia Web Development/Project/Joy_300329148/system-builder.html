@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PCMR | Home</title>
+  
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script src="assets/js/script.js" defer></script>
+
+</head>
+<body>
+  <div id="content">
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img id="logo" src="assets/images/logo.png" alt="PCMasterRace">
+        </a>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#" class="active">System Builder</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="row">
+        <div class="col">
+          <div class="card builder">
+            <div class="center"><h2>System Builder</h2></div>
+            <div class="hr"></div>
+            <form action="#">
+              <table>
+                <thead>
+                  <tr>
+                    <th colspan="2">Component</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr id="row-cpu">
+                    <td><img src="assets/images/cpu.png" alt="cpu" ></td>
+                    <td>CPU</td>
+                    <td>
+                      <select id="cpu" class="control" onchange="checkCPU(this);" tabindex="1" required>
+                        <option hidden value="">Select an option</option>
+                        <option value="AMD Ryzen 7 3700X">AMD Ryzen 7 3700X</option>
+                        <option value="Intel Core i7-10700K">Intel Core i7-10700K</option>
+                        <option value="AMD Ryzen 7 5800X">AMD Ryzen 7 5800X</option>
+                      </select>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr id="row-motherboard">
+                    <td><img src="assets/images/motherboard.png" alt="motherboard" ></td>
+                    <td>Motherboard</td>
+                    <td>
+                      <select id="motherboard" class="control" onchange="checkMB(this);" tabindex="2" required>
+                        <option hidden value="">Select an option</option>
+                        <option value="MSI B450 TOMAHAWK MAX">MSI B450 TOMAHAWK MAX</option>
+                        <option value="Asus TUF GAMING X570-PLUS (WI-FI)">Asus TUF GAMING X570-PLUS (WI-FI)</option>
+                        <option value="Asus ROG STRIX B550-F GAMING (WI-FI)">Asus ROG STRIX B550-F GAMING (WI-FI)</option>
+                      </select>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr id="row-gpu">
+                    <td><img src="assets/images/gpu.png" alt="gpu" ></td>
+                    <td>GPU</td>
+                    <td>
+                      <select id="gpu" class="control" onchange="checkGPU(this);" tabindex="3" required>
+                        <option hidden value="">Select an option</option>
+                        <option value="NVIDIA GEFORCE RTX 3080">NVIDIA GEFORCE RTX 3080</option>
+                        <option value="NVIDIA GEFORCE RTX 3070">NVIDIA GEFORCE RTX 3070</option>
+                        <option value="NVIDIA GEFORCE RTX 3060 TI">NVIDIA GEFORCE RTX 3060 TI</option>
+                      </select>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr id="row-ram">
+                    <td><img src="assets/images/ram.png" alt="ram" ></td>
+                    <td>RAM</td>
+                    <td>
+                      <select id="ram" class="control" onchange="checkRAM(this);" tabindex="4" required>
+                        <option hidden value="">Select an option</option>
+                        <option value="Corsair Vengeance LPX 16 GB">Corsair Vengeance LPX 16 GB</option>
+                        <option value="Corsair Vengeance RGB Pro 16 GB">Corsair Vengeance RGB Pro 16 GB</option>
+                        <option value="Crucial Ballistix 16 GB">Crucial Ballistix 16 GB</option>
+                      </select>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr id="row-ssd">
+                    <td><img src="assets/images/ssd.png" alt="ssd" ></td>
+                    <td>Storage</td>
+                    <td>
+                      <select id="ssd" class="control" onchange="checkSSD(this);" tabindex="5" required>
+                        <option hidden value="">Select an option</option>
+                        <option value="Samsung 970 Evo 1TB">Samsung 970 Evo 1TB</option>
+                        <option value="Western Digital Blue SN550 1 TB">Western Digital Blue SN550 1 TB</option>
+                        <option value="Samsung 980 Pro 1TB">Samsung 980 Pro 1TB</option>
+                      </select>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr id="row-psu">
+                    <td><img src="assets/images/psu.png" alt="psu" ></td>
+                    <td>Power Supply</td>
+                    <td>
+                      <select id="psu" class="control" onchange="checkPSU(this);" tabindex="6" required>
+                        <option hidden value="">Select an option</option>
+                        <option value="Corsair RM 750W">Corsair RM 750W</option>
+                        <option value="EVGA BQ 600W">EVGA BQ 600W</option>
+                        <option value="Corsair CXM 650W">Corsair CXM 650W</option>
+                      </select>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr id="row-case">
+                    <td><img src="assets/images/case.png" alt="case" ></td>
+                    <td>Case</td>
+                    <td>
+                      <select id="case" class="control" onchange="checkCase(this);" tabindex="7" required>
+                        <option hidden value="">Select an option</option>
+                        <option value="NZXT H510">NZXT H510</option>
+                        <option value="Corsair 4000D Airflow">Corsair 4000D Airflow</option>
+                        <option value="Fractal Design Meshify C">Fractal Design Meshify C</option>
+                      </select>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr id="total">
+                    <td><button type="reset" class="btn"  tabindex="8" onclick="resetPrices();">Reset</button></td>
+                    <td><button type="button" class="btn" id="calculate" tabindex="8" onclick="calcTotal();">Calculate total</button></td>
+                    <td>Total :</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    Copyright &copy; 2021 Stephen Joy | 300329148
+  </footer>
+</body>
+</html>
