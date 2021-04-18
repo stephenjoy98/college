@@ -19,7 +19,7 @@ function displayMovies() {
 }
 
 function resetList() {
-  display.innerHTML = "";
+  display.innerHTML = "";
 }
 
 function addMovie() {
